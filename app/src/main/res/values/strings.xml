@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valorant Manager</string>
+    <string name="wel_agent">Bienvenido de nuevo, Agente</string>
+    <string name="logo">LOGO</string>
+    <string name="login_1">Inicia sesión para continuar:</string>
+    <string name="login">Iniciar sesión:</string>
+    <string name="nombre_de_usuario">Nombre de Usuario</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="contraseña_f">OLVIDÉ LA CONTRASEÑA</string>
+    <string name="admin_go">ENTRAR COMO ADMIN</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="Log_in_btn">INICIAR SESIÓN</string>
+    <string name="SinDatos">ASDF</string>
+</resources>
