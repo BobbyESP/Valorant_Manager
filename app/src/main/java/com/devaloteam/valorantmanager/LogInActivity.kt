@@ -26,6 +26,7 @@ class LogInActivity : AppCompatActivity() {
                 Toast.makeText(this@LogInActivity, "Contraseña Mal", Toast.LENGTH_LONG).show()
             }else{
                 //login
+
             }
         }
     }

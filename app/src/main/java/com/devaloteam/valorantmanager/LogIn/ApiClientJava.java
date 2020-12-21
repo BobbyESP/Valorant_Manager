@@ -22,8 +22,6 @@ public class ApiClientJava {
         OkHttpClient client = new OkHttpClient();
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
 
-        builder.addInterceptor(new AddCookiesInterceptor(context)); // VERY VERY IMPORTANT
-        builder.addInterceptor(new ReceivedCookiesInterceptor(context)); // VERY VERY IMPORTANT
         client = builder.build();
 
         Retrofit retrofit = new Retrofit.Builder()

@@ -17,4 +17,10 @@
         <item name="boxStrokeErrorColor">@color/redValorant</item>
     </style>
 
+    <style name="MainMenu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorIntroApp</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    </style>
+
 </resources>
