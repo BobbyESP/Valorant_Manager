@@ -30,7 +30,4 @@ class LogInActivity : AppCompatActivity() {
             }
         }
     }
-    fun login() {
-
-    }
 }
