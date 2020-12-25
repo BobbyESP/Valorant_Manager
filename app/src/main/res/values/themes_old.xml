@@ -7,6 +7,13 @@
         <item name="android:colorEdgeEffect">@color/redValorant</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="MainTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redValorant</item>
+        <item name="colorPrimaryDark">@color/redValorantDarker2</item>
+        <item name="android:colorEdgeEffect">@color/redValorant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
     <style name="SplashScreen" parent="AppTheme">
         <item name="android:windowBackground">@drawable/splashscreen</item>
     </style>

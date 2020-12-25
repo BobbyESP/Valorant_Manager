@@ -15,5 +15,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="redValorantDarker">A81F2B</color>
+    <color name="redValorantDarker1">#A81F2B</color>
+    <color name="redValorantDarker2">#CC3945</color>
 </resources>
