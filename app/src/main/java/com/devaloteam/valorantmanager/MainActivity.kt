@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             super.onBackPressed()
-            val  intent = Intent(this, WebViewActivity::class.java)
+            val  intent = Intent(this, MainScreen::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
             finish()
