@@ -6,7 +6,6 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.devaloteam.valorantmanager.LogIn.Cookies.CookieVars
 import com.google.android.material.textfield.TextInputEditText
 
 class LogInActivity : AppCompatActivity() {

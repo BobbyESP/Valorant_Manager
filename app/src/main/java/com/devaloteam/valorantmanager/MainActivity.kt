@@ -8,6 +8,7 @@ import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.devaloteam.valorantmanager.Login.WebViewActivity
 
 class MainActivity : AppCompatActivity() {
     private var iv: ImageView? = null
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             super.onBackPressed()
-            val  intent = Intent(this, LogInActivity::class.java)
+            val  intent = Intent(this, WebViewActivity::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
             finish()
