@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         iv2 = findViewById<View>(R.id.IntroApp2) as ImageView
 
 
-
         val myanim = AnimationUtils.loadAnimation(this, R.anim.fade_out)
         val myanim2 = AnimationUtils.loadAnimation(this, R.anim.zoom_in)
         iv!!.startAnimation(myanim)

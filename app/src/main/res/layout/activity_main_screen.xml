@@ -7,11 +7,12 @@
     android:background="@color/colorIntroApp"
     tools:context=".MainScreen">
 
-    <androidx.appcompat.widget.Toolbar
+    <Toolbar
         android:id="@+id/toolbarMAIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="@color/redValorant"/>
+
 
 </RelativeLayout>
